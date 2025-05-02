@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+db.sqlite3
+
+# Media files (uploads)
+media/
+
+# Django static files (can be regenerated)
+staticfiles/
+
+# Virtual environment
+venv/
+.env
+
+# Local settings
+local_settings.py
+
+# Migration cache
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Build artifacts
+*.log
+*.pot
+dist/
+build/
