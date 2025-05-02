@@ -7,7 +7,7 @@ Django==5.2
 django-filter==25.1
 djangorestframework==3.16.0
 djangorestframework_simplejwt==5.5.0
-drf-yasg2==1.19.4
+drf-yasg==1.21.10
 idna==3.10
 inflection==0.5.1
 itypes==1.2.0
@@ -17,6 +17,8 @@ MarkupSafe==3.0.2
 packaging==25.0
 pillow==11.2.1
 PyJWT==2.9.0
+pytz==2025.2
+PyYAML==6.0.2
 requests==2.32.3
 ruamel.yaml==0.18.10
 ruamel.yaml.clib==0.2.12

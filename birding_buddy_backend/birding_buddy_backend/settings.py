@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'users',
     'sightings',
     'hotspots',
-    'drf_yasg2',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -137,3 +137,4 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
+

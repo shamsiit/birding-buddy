@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from rest_framework import generics
+from .models import Hotspot
+from .serializers import HotspotSerializer
 
-# Create your views here.
+class HotspotListCreateView(generics.ListCreateAPIView):
+    queryset = Hotspot.objects.all()
+    serializer_class = HotspotSerializer
+
+class HotspotDetailView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Hotspot.objects.all()
+    serializer_class = HotspotSerializer
