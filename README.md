@@ -76,6 +76,11 @@ python manage.py runserver
 | `/api/hotspots/<id>/` | GET, PUT, DELETE | View/update/delete hotspot |
 
 ---
+### 3. Run Tests
+```bash
+manage.py test users sightings hotspots
+```
+
 
 ## 🧪 Testing the API (with bash)
 Save the script below as `test_birding_buddy_api.sh`:
