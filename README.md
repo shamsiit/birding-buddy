@@ -76,7 +76,7 @@ python manage.py runserver
 | `/api/hotspots/<id>/` | GET, PUT, DELETE | View/update/delete hotspot |
 
 ---
-### 3. Run Tests
+### 6. Run Tests
 ```bash
 manage.py test users sightings hotspots
 ```
